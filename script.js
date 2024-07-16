@@ -1,5 +1,7 @@
-function minDate(dates) {
-  //write you code here
+
+ function minDate(dates) {
+    // Sort the dates array in ascending order and return the first element
+    return dates.slice().sort()[0];
 }
 
 // Do not change the code
